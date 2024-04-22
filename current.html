@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Current Problems - Help Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="charity_profile.js" defer></script>
+    <script src="https://www.youtube.com/iframe_api"></script>
+</head>
+<body>
+    <header>
+        <h1>Help Hub</h1>
+        <h2>Current Problems</h2>
+    </header>
+    <div class="container">
+        <div class="left section">
+            <h3><a href="index.html">About Us</a></h3>
+        </div>
+        <div class="middle section">
+            <h3>About Charity</h3>
+            <p>Studies show that 80% of marine debris originates from freshwater systems. As a peninsula, it's critical that Florida's upland and upstream communities play a significant part in pollution prevention and reduction. Removing debris preserves critical wildlife habitat, both directly, by restoring the area where the debris was dumped, and indirectly, by preventing leaching of chemicals, toxins, and microplastics into surface waters and further, into our tributaries, river systems, and Aquifer. CP is the only freshwater debris removal specialized nonprofit in the Southeast and has focused its efforts on projects that most impact the health of habitat and water quality. CP engages volunteers in active springshed conservation and has been awarded throughout the years for its direct approach to water quality preservation, Aquifer restoration, and ability to eliminate the cost of harmful debris removal for communities most impacted, including receiving the Wes Skiles Water Stewardship Award. Our focus and priority in all its work is stewardship- of its volunteers and of the watersheds it protects.</p>
+            <div id="player" data-video-id="TaAfMm9crMA"></div>
+            <button class="volunteer-button" onclick="showForm()">Volunteer Now!</button>
+            <form id="volunteerForm" style="display: none;">
+                <div class="input-container">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="right section">
+            <h3>Back to Charity List</h3>
+            <p><a href="charitylist.html">Return to Charity List</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Help Hub</p>
+    </footer>
+</body>
+</html>

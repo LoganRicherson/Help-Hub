@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ASAN - Help Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://www.youtube.com/iframe_api"></script>
+    <script src="charity_profile.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>Help Hub</h1>
+        <h2>Autism Self Advocacy Network (ASAN)</h2>
+    </header>
+    <div class="container">
+        <div class="left section">
+            <h3><a href="index.html">About Us</a></h3>
+        </div>
+        <div class="middle section">
+            <h3>About ASAN</h3>
+            <p>The Autistic Self Advocacy Network seeks to advance the principles of the disability rights movement with regard to autism...</p>
+            <div id="player" data-video-id="XnuGPJ7UdpU"></div>
+            <button class="volunteer-button" onclick="showForm()">Volunteer Now!</button>
+            <form id="volunteerForm" style="display: none;">
+                <div class="input-container">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="input-container">
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="input-container">
+                    <label for="phone">Phone:</label>
+                    <input type="tel" id="phone" name="phone" required>
+                </div>
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+        <div class="right section">
+            <h3>Back to Charity List</h3>
+            <p><a href="charitylist.html">Return to Charity List</a></p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Help Hub</p>
+    </footer>
+</body>
+</html>
